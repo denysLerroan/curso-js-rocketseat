@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocketseat Ex002</title>
+</head>
+
+<body>
+
+    <script>
+        var exibePares = [];
+
+        function pares(x, y) {
+            while (x <= y) {
+                if ((x % 2) == 0) {
+                    exibePares.push(x);
+                }
+                x++
+            }
+        }
+
+        pares(32, 321);
+        console.log(exibePares);
+    </script>
+</body>
+
+</html>
